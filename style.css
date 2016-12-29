@@ -17,6 +17,8 @@ body {
 				margin-right: 30%;
 				text-align: center;
 				background-color: black;
+                position: relative;
+                
 			}
 			#name {
 				font-family: 'Inconsolata', bold;
@@ -30,7 +32,7 @@ body {
 				margin: 0;
 			}
 			#about {
-				background-color: #69656A;
+				background-color: #3a3a3a;
 				margin-top: 30%;
 				font-family: 'Oxygen', sans-serif;
 				text-align: justify;
@@ -46,3 +48,12 @@ body {
 				padding-left: 200px;
 				padding-right: 200px 
 			}
+ #myScrollspy {
+                position: absolute;
+                
+            }
+.nav {
+                position: fixed;
+                top: 5%;
+                left: 5%;
+            }
