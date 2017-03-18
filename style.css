@@ -21,7 +21,7 @@ body.fade-out {
     transform: translate(-50%, -50%);
 }
 #opening {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Serif', serif;
     font-style: normal;
     font-size: 50px;
     width: 500px;
@@ -44,21 +44,20 @@ body.fade-out {
     text-align: justify;
 }
 div.content {
-    <!-- background-color:rgba(0,0,0,0.4); -->
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 90vh;
+    background-color: #31aa7c;
 }
-div.textContent {
-    padding-left: 200px;
-    padding-right: 200px 
-}
-#myScrollspy {
+.textContent {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.nav {
-    position: fixed;
-    top: 5%;
-    left: 5%;
+.page {
+    height: 100vh;
+    background-color: #bfbfbf;
+    padding-top: 5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
 }
