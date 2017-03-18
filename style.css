@@ -11,24 +11,28 @@ body.fade-out {
 #openingDiv {
     height: 100vh;
     background-color: white;
+    position: relative;
+
+}
+#opContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #opening {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-style: normal;
-    font-size: 40px;
-    color: #E6E6E6;
-    margin-left: 30%;
-    margin-right: 30%;
+    font-size: 50px;
+    width: 500px;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
     position: relative;
+    background-color: #e6e6e6;
 }
 #name {
     font-family: 'Inconsolata', bold;
     color: white;
     font-size: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
     text-align: center;
 }
 * {
@@ -36,7 +40,6 @@ body.fade-out {
 }
 #about {
     background-color: #bfbfbf;
-    margin-top: 30%;
     font-family: 'Oxygen', sans-serif;
     text-align: justify;
 }
