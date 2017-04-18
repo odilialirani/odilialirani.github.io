@@ -43,9 +43,8 @@ body.fade-out {
     font-family: 'Oxygen', sans-serif;
     text-align: justify;
 }
-div.content {
+.content {
     height: 90vh;
-    background-color: #31aa7c;
 }
 .textContent {
     position: absolute;
@@ -55,9 +54,16 @@ div.content {
 }
 .page {
     height: 100vh;
-    background-color: #bfbfbf;
+
     padding-top: 5vh;
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
+}
+
+#aboutPage {
+    background-color: #bfbfbf;
+}
+#projectPage {
+    background-color: #31aa7c;
 }
