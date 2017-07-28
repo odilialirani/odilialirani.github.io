@@ -1,18 +1,16 @@
-.navbar-fixed {
-  position: fixed;
-  top: -3em;
-}
-
 /*----------------------
   $NAVBAR
     basic navbar styling
-  ----------------------*/
+  ----------------------
 nav {
   width: 100%;
   color: #bbb;
-  background: #2e2e2e;
+  opacity: 0.5;
   font-weight: bold;
   letter-spacing: 0.025em;
+}
+*/
+#nav_div  {
 }
 
 nav ul {
@@ -21,30 +19,33 @@ nav ul {
 }
 
 nav ul li {
+  color: #bbb;
   display: inline-block;
   padding: 0 3em;
   line-height: 3em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
 }
 
 nav ul li:hover {
   background: #00939C;
+
 }
 
 /*----------------------
   $BODY
   ----------------------*/
-body {
-  background: #0B6AD4;
+
+#name_block {
+  width: 70%;
+  height: 15%;
+  float: right;
+  background: rgba(0,0,0, 0.2);
+  
 }
 
-/*----------------------
-  $MISC
-  ----------------------*/
-.filler {
-  width: 1px;
-  height: 200px;
+.main_content {
+  padding-top: 50px;
+  height: 100vh;
 }
 
-.two {
-  height: 3000px;
-}
