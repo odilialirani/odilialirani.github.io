@@ -86,6 +86,7 @@ nav ul li:hover {
 .main_content {
   padding-top: 10vh;
   height: 100vh;
+  padding-left: 3vw;
 }
 
 /* Loader Animation - w3schools.com*/
@@ -142,7 +143,7 @@ nav ul li:hover {
 .section_title {
   font-family: 'Open Sans', sans-serif;
   font-size: 4vw;
-  padding-left: 3vw;
+  
   letter-spacing: 10px;
   color: #737373;
 }
@@ -158,3 +159,14 @@ body.fade-out {
     opacity: 0;
     transition: none; 
 }
+
+.section_content {
+  margin-top: 5vh;
+  align: center;
+  margin-right: 10vw;
+  margin-left: 7vw;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2vw;
+}
+
