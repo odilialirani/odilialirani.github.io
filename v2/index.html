@@ -27,20 +27,25 @@
 	</head>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<script>
+			// Script for the fade in effect
+			document.body.className += ' fade-out';
+			window.onload = function () { document.body.className = "";}
+		</script>
 		<div id="nav_wrapper">
-		<div id="nav_div">
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container">
-					<ul>
-					    <li><a href="#">home</a></li>
-					    <li><a href="#about">about</a></li>
-					    <li><a href="#education">education</a></li>
-					    <li><a href="#experience">experience</a></li>
-					    <li><a href="#contact">contact</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+			<div id="nav_div">
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<ul>
+						    <li><a href="#">home</a></li>
+						    <li><a href="#about">about</a></li>
+						    <li><a href="#education">education</a></li>
+						    <li><a href="#experience">experience</a></li>
+						    <li><a href="#contact">contact</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
 		<div class="main_content" id="home">
 			<div id="animation_block">
