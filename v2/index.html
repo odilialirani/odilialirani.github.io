@@ -7,8 +7,8 @@
 		<script type="text/javascript" src="navbar.js"></script>
 
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Cairo|Open+Sans" rel="stylesheet">
+		
 
          <!-- BOOTSTRAP -->
 
@@ -26,21 +26,51 @@
 		<title>Odilia Lirani - an interactive resume</title>
 	</head>
 
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="nav_wrapper">
 		<div id="nav_div">
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<ul>
-					    <li>one</li>
-					    <li>two</li>
-					    <li>three</li>
+					    <li><a href="#">home</a></li>
+					    <li><a href="#about">about</a></li>
+					    <li><a href="#education">education</a></li>
+					    <li><a href="#experience">experience</a></li>
+					    <li><a href="#contact">contact</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
-		<div class="main_content">
+		</div>
+		<div class="main_content" id="home">
+			<div id="animation_block">
+				<div class="loader"></div>
+			</div>
+			<div id="annc_block">
+				work in progress
+			</div>
 			<div id="name_block">
-				<p>hello</p>
+				Odilia Lirani
+			</div>
+		</div>
+		<div class="main_content" id="about">
+			<div class="section_title">
+				about
+			</div>
+		</div>
+		<div class="main_content" id="education">
+			<div class="section_title">
+				education
+			</div>
+		</div>
+		<div class="main_content" id="experience">
+			<div class="section_title">
+				experience
+			</div>
+		</div>
+		<div class="main_content" id="contact">
+			<div class="section_title">
+				contact
 			</div>
 		</div>
 	</body>
