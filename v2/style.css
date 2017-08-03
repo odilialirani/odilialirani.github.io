@@ -11,7 +11,7 @@ nav {
 }
 */
 nav {
-  position: fixed;
+  position: fixed !important;
 
 }
 
@@ -112,34 +112,6 @@ nav ul li:hover {
   100% { transform: rotate(360deg); }
 }
 
-
-/* Typing animation */
-.typing_text {
-  animation: type 4s steps(60, end); 
-}
-
-.typing_text:nth-child(2) {
-  animation: type2 8s steps(60, end);
-}
-
-.type_span {
-  animation: blink 1s infinite;
-}
-
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; } 
-} 
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
 .section_title {
   font-family: 'Open Sans', sans-serif;
   font-size: 4vw;
@@ -162,11 +134,14 @@ body.fade-out {
 
 .section_content {
   margin-top: 5vh;
-  align: center;
   margin-right: 10vw;
   margin-left: 7vw;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
-  font-size: 2vw;
+  font-size: 140%;
 }
 
+.carousel-div {
+  width: 80%;
+  height: 60vh;
+}
