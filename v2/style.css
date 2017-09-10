@@ -1,0 +1,147 @@
+/*----------------------
+  $NAVBAR
+    basic navbar styling
+  ----------------------
+nav {
+  width: 100%;
+  color: #bbb;
+  opacity: 0.5;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+*/
+nav {
+  position: fixed !important;
+
+}
+
+a {
+  color: #bbb !important;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  color: #bbb;
+  display: inline-block;
+  padding: 0 2em;
+  line-height: 2em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+
+nav ul li:hover {
+  background: #00939C;
+
+}
+
+/*----------------------
+  $BODY
+  ----------------------*/
+
+  body {
+    position: relative;
+  }
+#animation_block {
+  margin: auto;
+  padding-top: 10vh;
+  width: 50%;
+
+}
+
+#pic_block {
+  margin: auto;
+  padding-top: 10vh;
+  width: 50%;
+}
+
+#annc_block {
+
+  margin: auto;
+  width: 50vw;
+  padding-top: 5vh;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 5px;
+  font-size: 2vw;
+  color: #b3b3b3;
+}
+
+#name_block {
+  width: 70vw;
+  height: 8vh;
+  float: right;
+  background: rgba(0,0,0, 0.2);
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 5px;
+  margin-top: 30vh;
+  font-size: 6vh;
+  padding-left: 4vw;
+  position: relative;
+}
+
+.main_content {
+  padding-top: 10vh;
+  height: 100vh;
+  padding-left: 3vw;
+}
+
+/* Loader Animation - w3schools.com*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #b3ffe6;  /* moving bar color */
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.section_title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  
+  letter-spacing: 10px;
+  color: #737373;
+}
+
+/* Fade in effect */
+body {
+    /*background-color: #96939B;*/
+    background-color: white;
+    opacity: 1;
+    transition: 3s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none; 
+}
+
+.section_content {
+  margin-top: 5vh;
+  margin-right: 10vw;
+  margin-left: 7vw;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 140%;
+}
+
+.carousel-div {
+  width: 80%;
+  height: 60vh;
+}
