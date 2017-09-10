@@ -7,6 +7,7 @@ h1 {
 
 form {
   padding: 15px;
+    width: 100%;
 }
 
 .submitButton {
@@ -21,6 +22,34 @@ form {
 
 #payer {
     background-color: #fff;
+}
+
+.checkbox-inline {
+    width: 30%;
+}
+
+.nextline {
+    margin-left: 0px !important;
+}
+
+/* nav tabs */
+.nav-tabs li {
+    width: 50%;
+    text-align: center;
+    color: #000;
+}
+
+.nav-tabs li a {
+    color: #000;
+    letter-spacing: 3px;
+}
+
+.hidePart {
+    display: none;
+}
+
+.showPart {
+    display: flex;
 }
 
 /*************/
@@ -174,3 +203,10 @@ h3 {
 
 
 /********************/
+
+@media screen and (min-width: 845px) {
+    form {
+        width: 80%;
+        margin: 25px 10%; 
+    }
+}
